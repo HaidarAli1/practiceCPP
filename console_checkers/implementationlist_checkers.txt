@@ -1,0 +1,10 @@
+Implementation List, Checkers:
+
+Class of Pawn
+    - Position
+    - color/side
+    - Movement (function, probably)
+    - May add encapsulation later... 
+    - Add constructor to place all the checkers pieces on the board (pre place when creating object)
+    - CREATE A HEADER FILE FOR CLASS (Note: Done for readability purposes)
+    
