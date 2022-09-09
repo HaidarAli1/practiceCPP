@@ -8,3 +8,17 @@ Class of Pawn
     - Add constructor to place all the checkers pieces on the board (pre place when creating object)
     - CREATE A HEADER FILE FOR CLASS (Note: Done for readability purposes)
     
+    Pawn constructor:
+        - Take the position, and place each of the pieces in the correct locations and for each color(boolean value) *Checker board has 64 squares << 8x8 << 24 pieces total << 12 one side
+        - Needs to know if any other objects are within 1 block horizontally or veritcally (not diagonally)
+
+    Movement:
+        - Exceptions (either try-catch extc) for an incorrect movement in the game (non-diagonally)
+        - 
+
+
+
+
+
+main () function:   
+    - 
