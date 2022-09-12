@@ -6,6 +6,7 @@ class pawn {
         int ypos = 1;
 
         void movement();
+        void board_place();
         pawn() =  default;
         pawn (bool side, int num, int x, int y);
 };
