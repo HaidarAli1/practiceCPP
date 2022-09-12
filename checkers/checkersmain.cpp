@@ -1,17 +1,21 @@
 #include <iostream>
 #include "checkersclass.h"
+
 using namespace std;
 
 int main () {
     pawn piece[23];
 
-    int i;
-    while (i != 23)
-    {
-        cout << piece[i].color << endl;
-        i++;
+    for(int i = 0; i <= 23; i++){
+        piece[i].pieceNum = i;
+        cout << piece[i].pieceNum << endl;
     }
 
-    cout << piece[3].color << endl;
+
+    for(int num = 0; num <= 11; num++){
+            piece[num].board_place(piece[num].xpos , piece[num].ypos);
+
+    }
+
     return 0;
 }
