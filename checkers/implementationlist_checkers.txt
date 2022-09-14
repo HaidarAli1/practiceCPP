@@ -23,6 +23,8 @@ Master:
         Board Placement:
             - Taking the obj pieces and placing each one according to xpos, ypos, and color
             - seperate function in the pawn.cpp file
+            - Using a for loop going through and taking the previous nums placement of x and y and adding too it based on what it has. If it is divisible by 0 (just a thought).
+            
     
 
 

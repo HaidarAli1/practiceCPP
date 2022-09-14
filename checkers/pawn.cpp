@@ -2,8 +2,12 @@
 #include <iostream>
 using namespace std;
 
-void pawn::board_place(int x, int y){
-    
+int pawn::board_place(int rec, int x, int y){
+    if(y % 0){
+        if (x % 0){
+            
+        }
+    }
 }
 
 
